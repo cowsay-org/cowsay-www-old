@@ -15,6 +15,6 @@ for (i in 1:length(tlds)) {
 filename <- 'gtld_humor_response.png'
 png(filename = filename, width = 800, height = 600, units = "px")
 boxplot(x~id, data = df, main = "Observed gTLD Amusement Response",
-        xlab = "gTLD", ylab = "millichortles/impression",
+        xlab = "gTLD", ylab = "millichortles per impression",
         res = 300)
 dev.off()
